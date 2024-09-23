@@ -1,0 +1,67 @@
+body{
+color:white;
+background: hsl(0, 0%, 0%);
+margin: 0px;
+font-family: "Chakara Petch", sans-serif;
+
+}
+
+header {
+border-bottom: solid 1px rgb(42, 169, 228);
+padding: 20px;
+font-size: 35px;
+color: rgb(53, 0, 247);
+
+}
+
+.chamada {
+    background: url("https://www.jugandoando.com.ar/wp-content/uploads/que-le-paso-a-otra-semana-en-cartoon-1.webp");
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chmada-texto{
+    margin-right: 10%;
+}
+
+h1 {  
+font-size: 30px ;
+color: rgb(144, 145, 247);
+
+}
+
+p{
+font-size: 20px;
+color: rgb(87, 89, 201);
+}
+
+img{
+    height: 160px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px ;
+}
+
+.categoria-videos img{
+    opacity:0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+    opacity:1.0;
+    border: 1px solid hsl(278, 76%, 47%);
+}
+
+.categoria h2{
+color: rgb(30, 33, 236);
+}
